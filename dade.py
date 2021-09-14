@@ -7,9 +7,9 @@ if __name__ == '__main__':
     print("Start")
 
 
-    @client2.on(events.NewMessage(-1001296890742))
+    @client2.on(events.NewMessage(-1549268133))
     async def my_event_handler(event):
-        await client2.forward_messages(-560266164, event.message)
+        await client2.forward_messages(-1289615523, event.message)
         sender = await event.get_sender()
         print(sender.id)
 
